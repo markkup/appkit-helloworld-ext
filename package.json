@@ -1,0 +1,51 @@
+{
+  "name": "appkit-helloworld-ext",
+  "version": "0.0.2",
+  "description": "Test module from Markkup",
+  "engines": {
+    "appkit": "^1.0.0"
+  },
+  "appkit": {
+    "modules": [
+      {
+        "id": "markkup-helloworld",
+        "name": "Markkup Helloworld ",
+        "schema": "helloworld/schema.json",
+        "content": {
+          "edit": {
+            "greetings": {
+              "name": "Greetings",
+              "data": "greetings"
+            }
+          }
+        },
+        "ui": {
+          "pages": {
+            "start": "helloworld/ui/pages/start.js"
+          },
+          "module": "helloworld/ui/module.js"
+        }
+      }
+    ],
+    "components": [
+      {
+        "name": "BlueButton",
+        "script": "components/BlueButton.js"
+      }
+    ],
+    "libs": [
+      {
+        "name": "chunk",
+        "script": "libs/chunk.js",
+        "include": []
+      }
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "options": {
+        "fields": {
+            "title": {
+                "label": "Title",
+                "description": "Title for this module",
+                "group": "General",
+                "heading": "",
+                "private": "",
+                "type": "String"
+            },
+            "replace": {
+                "label": "World Replace",
+                "description": "Replace 'World' with",
+                "group": "General",
+                "heading": "",
+                "private": "",
+                "type": "String"
+            },
+            "enable-ui-override": {
+                "label": "Enable UI Override",
+                "description": "Override the default UI for this module",
+                "group": "Advanced",
+                "heading": "",
+                "private": "",
+                "type": "YesNo"
+            },
+            "enable-xml-editing": {
+                "label": "Enable XML Editing",
+                "description": "Show XML to allow advanced editing",
+                "group": "Advanced",
+                "heading": "",
+                "private": "",
+                "type": "YesNo"
+            }
+        },
+        "groups": [ "General", "Advanced" ]
+    },
+    "data": {
+        "greetings": {
+            "child": "greetings",
+            "name": "Greetings",
+            "title": "hello",
+            "fields": [
+                {
+                    "key": "hello",
+                    "type": "string",
+                    "format": "single-line",
+                    "caption": "Another word for 'Hello'",
+                    "minLength": 2,
+                    "maxLength": 200,
+                    "required": true
+                }
+            ]
+        }
+    }
+}
