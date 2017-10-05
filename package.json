@@ -1,6 +1,6 @@
 {
   "name": "appkit-helloworld-ext",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test module from Markkup",
   "engines": {
     "appkit": "^1.0.0"
@@ -9,7 +9,7 @@
     "modules": [
       {
         "id": "markkup-helloworld",
-        "name": "Markkup Helloworld ",
+        "name": "Markkup Helloworld Module",
         "schema": "helloworld/schema.json",
         "content": {
           "edit": {
