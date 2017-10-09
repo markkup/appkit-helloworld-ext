@@ -21,7 +21,7 @@
         },
         "ui": {
           "pages": {
-            "start": "helloworld/ui/pages/start.js"
+            "start": "helloworld/ui/pages/helloworld.js"
           },
           "module": "helloworld/ui/module.js"
         }
