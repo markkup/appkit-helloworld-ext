@@ -1,6 +1,6 @@
 {
   "name": "markkup-helloworld-ext",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Test module from Markkup",
   "engines": {
     "appkit": "^1.0.0"
