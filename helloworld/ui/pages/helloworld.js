@@ -17,7 +17,7 @@
     return (
       <ScrollView style={styles.container}>
         { this.state.greetings.map((g, i) => {
-            return <Text key={i}>{g.hello + " " + replace}</Text>;
+            return <Text key={i} style={{padding:10}}>{g.hello + " " + replace}</Text>;
           })
         }
       </ScrollView>
