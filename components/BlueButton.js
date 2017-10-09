@@ -1,8 +1,9 @@
+import Texty from './Texty'
 export default class BlueButton extends Component {
   render() {
     return (
       <TouchableOpacity style={{backgroundColor:'blue'}} onPress={() => this.props.onPress()}>
-        <Text style={{color:'white'}}>{this.props.title}</Text>
+        <Texty style={{color:'white'}}>{this.props.title}</Texty>
       </TouchableOpacity>
     )
   }
