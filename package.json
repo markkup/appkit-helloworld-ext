@@ -27,7 +27,7 @@
         }
       }
     ],
-    "components": [
+    "componentsX": [
       {
         "name": "BlueButton",
         "script": "components/BlueButton.js"
